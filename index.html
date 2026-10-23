@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Works by Mel — an independent creative portfolio of editorial, graphic, and apparel design." name="description"/>
+<title>WORKS BY MEL. | Independent Creative Portfolio</title>
+<link href="style.css" rel="stylesheet"/>
+<style>
+    /* Homepage-only styling: other website pages stay unchanged. */
+    .cover-main { background: #aa8ed0; border-bottom: 1px solid #111; overflow: hidden; }
+    .cover-inner { max-width: 1440px; margin: auto; padding: clamp(28px,5vw,76px); }
+    .cover-topline, .cover-bottomline { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: .7rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    .cover-topline { border-bottom: 1px solid #111; padding-bottom: 15px; }
+    .cover-content { display: grid; grid-template-columns: minmax(0,1.5fr) minmax(240px,.55fr); gap: clamp(25px,5vw,80px); align-items: end; padding: clamp(45px,8vw,110px) 0 55px; }
+    .cover-kicker { display: inline-block; padding-bottom: 12px; border-bottom: 3px solid #711923; font-size: .73rem; letter-spacing: .13em; font-weight: 700; text-transform: uppercase; }
+    .cover-heading { font-family: 'Barlow Condensed',Impact,sans-serif; font-weight: 900; font-size: clamp(6rem, 15vw, 15rem); letter-spacing: -.055em; line-height: .74; margin: 42px 0 0; }
+    .cover-heading span { display: block; }
+    .cover-aside { background: #f6eddb; padding: clamp(24px,3vw,45px); transform: rotate(2deg); border: 1px solid #111; box-shadow: 10px 10px 0 #711923; }
+    .cover-aside .issue { font-size: .7rem; letter-spacing: .15em; text-transform: uppercase; }
+    .cover-aside p { font-family: 'Playfair Display',Georgia,serif; font-size: clamp(1.5rem,2.6vw,2.8rem); line-height: 1.22; margin: 26px 0; }
+    .cover-aside a { display: inline-block; padding: 12px 18px; background: #111; color: white; text-decoration: none; font-size: .85rem; }
+    .cover-bottomline { border-top: 1px solid #111; padding-top: 15px; }
+    .cover-star { color: #711923; font-size: 1.6rem; }
+    .archive-intro { max-width: 690px; font-family: 'Playfair Display',Georgia,serif; font-size: clamp(1.3rem,2.5vw,2rem); line-height: 1.4; margin: 0 0 28px; }
+    .project-art strong { overflow-wrap: anywhere; }
+    .cover-note { background: #fa80b8; border-top: 1px solid #111; border-bottom: 1px solid #111; padding: 16px 5%; text-align: center; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .75rem; }
+    @media (max-width: 900px) { .cover-content { grid-template-columns: 1fr; } .cover-heading { font-size: clamp(5rem, 21vw, 11rem); } .cover-aside { max-width: 500px; transform: rotate(1deg); } }
+    @media (max-width: 480px) { .cover-inner { padding: 25px 20px; } .cover-heading { font-size: clamp(4.3rem, 21vw, 7rem); } .cover-topline, .cover-bottomline { font-size: .6rem; } .cover-aside { box-shadow: 6px 6px 0 #711923; } }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="nav-wrap">
+<a class="brand" href="index.html">WORKS BY MEL.</a>
+<button aria-controls="nav-links" aria-expanded="false" class="menu-toggle">Menu ☰</button>
+<nav aria-label="Main navigation" class="nav-links" id="nav-links">
+<a aria-current="page" href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="works.html">Works</a>
+<a href="services.html">Services</a><a href="process.html">Process</a>
+<a href="resume.html">Résumé</a><a href="contact.html">Contact</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<section aria-labelledby="cover-title" class="cover-main">
+<div class="cover-inner">
+<div class="cover-topline"><span>Independent creative archive / Est. 2026</span><span>Issue no. 001 ✳</span></div>
+<div class="cover-content">
+<div>
+<span class="cover-kicker">Designs, identities &amp; visual stories</span>
+<h1 class="cover-heading" id="cover-title"><span>WORKS</span><span>BY MEL.</span></h1>
+</div>
+<aside class="cover-aside">
+<span class="issue">A note from the archive / 001</span>
+<p>Good design tells a story. I like mine with a little personality.</p>
+<a href="works.html">Explore the archive ↗</a>
+</aside>
+</div>
+<div class="cover-bottomline"><span>Editorial / Graphic / Print Concepts</span><span aria-hidden="true" class="cover-star">✳</span><span>Scroll to explore ↓</span></div>
+</div>
+</section>
+<div class="cover-note">A little creative chaos, carefully composed ✳</div>
+<section class="section" id="selected-works">
+<div class="container">
+<div class="section-head"><h2>Selected Works</h2><span class="eyebrow">The archive / 001—007</span></div>
+<p class="archive-intro">A collection of layouts, visual identities, and ideas worth keeping.</p>
+<div class="grid">
+<a aria-label="View DILAAB editorial project" class="project-card" data-category="editorial" href="dilaab.html"><div class="project-art dilaab-art"><img alt="DILAAB magazine cover with group photography and burgundy editorial typography" loading="lazy" src="assets/dilaab-cover.jpg"/><span class="image-tag">01 / EDITORIAL · VIEW PROJECT ↗</span></div><div class="project-meta"><p><b>DILAAB</b>Editorial / magazine design</p><span aria-hidden="true">↗</span></div></a>
+<a aria-label="View LEXIZINE editorial project" class="project-card" data-category="editorial" href="lexizine.html">
+<div class="project-art lexizine-art"><img alt="LEXIZINE digital dictionary cover" loading="lazy" src="assets/lexizine-cover.png"/><span class="image-tag">02 / EDITORIAL · VIEW PROJECT ↗</span></div>
+<div class="project-meta"><p><b>Lexizine</b>Expressive editorial layouts</p><span aria-hidden="true">↗</span></div>
+</a>
+<a aria-label="View Stories On Screen project" class="project-card" data-category="film" href="film-posters.html"><div class="project-art archive-card-art"><img alt="Stories On Screen portfolio artwork" loading="lazy" src="assets/film-poster-01.png"/><span class="image-tag">03 / FILM · FIRST PLACE ↗</span></div><div class="project-meta"><p><b>Stories On Screen</b>Film &amp; documentary poster design</p><span aria-hidden="true">↗</span></div></a><a aria-label="View Campus Creatives project" class="project-card" data-category="campus" href="campus-creatives.html"><div class="project-art archive-card-art"><img alt="Campus Creatives portfolio artwork" loading="lazy" src="assets/campus-poster-01.jfif"/><span class="image-tag">04 / CAMPUS · VIEW COLLECTION ↗</span></div><div class="project-meta"><p><b>Campus Creatives</b>School &amp; event communications</p><span aria-hidden="true">↗</span></div></a><a aria-label="View Identity In Print project" class="project-card" data-category="print" href="identity-in-print.html"><div class="project-art archive-card-art"><img alt="Identity In Print portfolio artwork" loading="lazy" src="assets/business-card-02.png"/><span class="image-tag">05 / PRINT · VIEW COLLECTION ↗</span></div><div class="project-meta"><p><b>Identity In Print</b>Business cards &amp; small-format graphics</p><span aria-hidden="true">↗</span></div></a><a aria-label="View The Menu Edit project" class="project-card" data-category="print" href="menu-designs.html"><div class="project-art archive-card-art"><img alt="The Menu Edit portfolio artwork" loading="lazy" src="assets/menu-01.png"/><span class="image-tag">06 / PRINT · VIEW COLLECTION ↗</span></div><div class="project-meta"><p><b>The Menu Edit</b>Food menus &amp; promotional layouts</p><span aria-hidden="true">↗</span></div></a><a aria-label="View Tailored Identity commissioned jacket project" class="project-card" data-category="apparel" href="tailored-identity.html"><div class="project-art tailored-art"><img alt="Front and back navy blue commissioned graduate school jacket digital mockups" loading="lazy" src="assets/tailored-1.jpg"/><span class="image-tag">07 / APPAREL · VIEW PROJECT ↗</span></div><div class="project-meta"><p><b>Tailored Identity</b>Commissioned jacket design · digital mockups</p><span aria-hidden="true">↗</span></div></a>
+</div>
+<p style="margin-top:30px"><a class="button-link" href="works.html">See all works →</a></p>
+</div>
+</section>
+<section class="section" style="background:var(--lav)">
+<div class="container split">
+<span class="eyebrow">Behind the pages / A note from the designer</span>
+<div><p class="intro">I work with typography, color, and composition to bring visual ideas to life.</p><a href="about.html">More about the designer ↗</a></div>
+</div>
+</section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© 2026 WORKS BY MEL. · Independent creative portfolio</span><span>Made with curiosity &amp; intention ✳</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>

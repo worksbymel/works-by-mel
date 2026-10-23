@@ -1,0 +1,1 @@
+Original uploaded PNG and JFIF images are now used directly, without JPEG recompression. Some originals are low resolution and can still appear soft when enlarged. For sharper detail, replace them with full-resolution exports from the design source (e.g. Canva PNG at 2x or PDF Print).

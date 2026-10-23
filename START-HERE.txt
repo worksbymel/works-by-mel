@@ -1,0 +1,9 @@
+WORKS BY MEL. — Services Update
+
+1. Extract this ZIP.
+2. Open works-by-mel/index.html in your browser.
+3. Select Services in the navigation to see the new page.
+
+Existing portfolio galleries and About page are preserved.
+
+NEW: Film posters, campus creatives, business cards, and menu design galleries added. Open index.html, or browse Works.
